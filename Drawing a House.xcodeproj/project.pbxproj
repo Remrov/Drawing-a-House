@@ -21,6 +21,7 @@
 		4F103DC71846249C0042C462 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F103DA91846249C0042C462 /* UIKit.framework */; };
 		4F103DCF1846249C0042C462 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F103DCD1846249C0042C462 /* InfoPlist.strings */; };
 		4F103DD11846249C0042C462 /* Drawing_a_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F103DD01846249C0042C462 /* Drawing_a_HouseTests.m */; };
+		4F103DDC184624FE0042C462 /* HVHouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F103DDB184624FE0042C462 /* HVHouseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4F103DCC1846249C0042C462 /* Drawing a HouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing a HouseTests-Info.plist"; sourceTree = "<group>"; };
 		4F103DCE1846249C0042C462 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4F103DD01846249C0042C462 /* Drawing_a_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_a_HouseTests.m; sourceTree = "<group>"; };
+		4F103DDA184624FE0042C462 /* HVHouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVHouseView.h; sourceTree = "<group>"; };
+		4F103DDB184624FE0042C462 /* HVHouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVHouseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				4F103DB41846249C0042C462 /* HVAppDelegate.h */,
 				4F103DB51846249C0042C462 /* HVAppDelegate.m */,
 				4F103DB71846249C0042C462 /* Main.storyboard */,
+				4F103DDA184624FE0042C462 /* HVHouseView.h */,
+				4F103DDB184624FE0042C462 /* HVHouseView.m */,
 				4F103DBA1846249C0042C462 /* HVViewController.h */,
 				4F103DBB1846249C0042C462 /* HVViewController.m */,
 				4F103DBD1846249C0042C462 /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F103DBC1846249C0042C462 /* HVViewController.m in Sources */,
+				4F103DDC184624FE0042C462 /* HVHouseView.m in Sources */,
 				4F103DB61846249C0042C462 /* HVAppDelegate.m in Sources */,
 				4F103DB21846249C0042C462 /* main.m in Sources */,
 			);
